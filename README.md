@@ -17,6 +17,10 @@
   <img src="https://img.shields.io/badge/GNN-GraphSAGE-1D9E75" alt="GNN GraphSAGE">
 </p>
 
+<p align="center">
+  <a href="https://youtu.be/SYaBZVQnmc0"><b>▶ 시연 영상 보기</b></a> &nbsp;·&nbsp; <a href="apk/드림카아반떼_Pooly.apk"><b>APK 내려받기</b></a>
+</p>
+
 ---
 
 ## 개요
@@ -131,7 +135,13 @@ flowchart LR
 
 ### 차량 앱 설치
 
-준비물: Android Studio, Pleos Connect 에뮬레이터 2.1.0(AVD `Pleos_Connect_2_1`), JDK 17.
+빌드 없이 바로 설치하려면 저장소의 APK를 쓰면 됩니다.
+
+```sh
+adb install -r apk/드림카아반떼_Pooly.apk
+```
+
+직접 빌드하려면 준비물: Android Studio, Pleos Connect 에뮬레이터 2.1.0(AVD `Pleos_Connect_2_1`), JDK 17.
 Pleos SDK는 `nexus-playground.pleos.ai` 저장소에서 받습니다([settings.gradle.kts](android/Pooly/settings.gradle.kts)).
 앱은 배포된 Pooly 서버에 자동으로 연결되므로 서버를 따로 실행할 필요가 없습니다.
 
